@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* MENU BAR*/
+
+/* Add some styles for the menu bar */
+#menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333ab;
+  padding: px;
+  color: #fff;
+  padding-left: 7px;
+  height: 67.3px;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#container label {
+  display: block;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #040000;
+  text-shadow: 1px 1px #fff;
+  text-align: center;
+}
+
+
+#container input[type="button"] {
+  width: 310px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container input[type="button"]:hover {
+  background-color: #0062cc;
+}
+body {
+  background-image: url("bg2.png");
+}
+
+#otp-link {
+  float: right;
+}
+
+
+#total-rows {
+  float: right;
+  margin-right: 10px;
+  font-size: 1em;
+  color: white;
+  
+  margin: 0 10px;
+  
+}
